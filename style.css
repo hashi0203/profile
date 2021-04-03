@@ -1,0 +1,192 @@
+html {
+    background: transparent;
+    background-image: linear-gradient(270deg, lightgray, cadetblue);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-family: "Helvetia Neue",Helvetica ,Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* color: navy; */
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.5em;
+}
+
+/* a:link {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+
+/* b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 1px;
+    display: block;
+    margin: 1em auto;
+    max-width: 95%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+    padding: 2.5px;
+} */
+
+/* body ul, ol {
+    margin-bottom: 1.3em;
+}
+
+ul ul {
+    margin-bottom: 0em;
+} */
+
+p {
+    padding-left: 20px;
+    text-indent: 1em;
+    margin: 0.5em 0px;
+}
+
+.br-sp {
+    display: none;
+}
+
+#contents-ja, #contents-en {
+    display: none;
+}
+
+.contact .icon-label {
+    padding-left: 5px;
+    padding-right: 32px;
+}
+
+.contact > a:link,
+.contact > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.contact > a:hover {
+    text-decoration: underline;
+}
+
+#langCng {
+    float: right;
+}
+
+#langCng input[type="radio"] {
+    display: none;
+}
+
+/* 各ラジオボタンのラベルをボタンに変更 */
+#langCng label{
+    display: inline-block;
+    border: 1.5px solid darkgray;
+    box-shadow: 1px 1px #999;
+    padding: 3px 12px;
+}
+
+/* 選択されている言語のラベル色を変更 */
+#langCng input[type="radio"]:checked + label {
+    background: cadetblue;
+    color: white;
+}
+
+#page-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    background: rgba(150, 150, 150);
+    color: white;
+    padding: 15px;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+}
+
+#page-top:hover {
+    background: white;
+    color: rgb(150, 150, 150);
+}
+
+/* body より内側に page-top が来る時の設定 */
+@media screen and (max-width: 900px) {
+    body {
+        /* width: calc(100vw - 80px); */
+        margin: 0 15px;
+    }
+
+    #page-top {
+        background: rgba(255, 255, 255, 0.6);
+        color: rgba(150, 150, 150);
+    }
+
+    #page-top:hover {
+        background: rgba(150, 150, 150, 0.5);
+        color: white;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    body {
+        font-size: 0.8em;
+    }
+
+    body ul, ol {
+        padding-left: 30px;
+    }
+
+    ul ul {
+        padding-left: 20px;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+
+    .br-sp {
+        display: block;
+    }
+
+    .contact .icon-label {
+        padding-right: 16px;
+    }
+
+    #langCng label{
+        display: block;
+        box-shadow: none;
+        padding: 3px 8px;
+    }
+}
