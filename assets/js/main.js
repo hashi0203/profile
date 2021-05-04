@@ -122,27 +122,6 @@
 
 })(jQuery);
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     // タッチデバイスなら hover を無効化
-//     var touch = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
-//     if(touch) {
-//     try {
-//         for (var si in document.styleSheets) {
-//         var styleSheet = document.styleSheets[si];
-//         if (!styleSheet.rules) continue;
-
-//         for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
-//             if (!styleSheet.rules[ri].selectorText) continue;
-
-//             if (styleSheet.rules[ri].selectorText.match(':hover')) {
-//             styleSheet.deleteRule(ri);
-//             }
-//         }
-//         }
-//     } catch (ex) {}
-//     }
-// });
-
 $(document).ready(function() {
 	var t = String.fromCharCode(131-22,78+19,141-36,65+43,146-30,60+51,63-5);
 	var i = String.fromCharCode(114-4,36+10,125-21,106+9,127-18,85+31,58-12,100+15,123-16);
