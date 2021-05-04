@@ -1,260 +1,580 @@
 <!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-193486918-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Nobuho Hashimoto's Profile</title>
+		<meta name="description" content="This is the Nobuho Hashimoto's profile Website. I am researching on image processing accelerators on an FPGA in the University of Tokyo.">
+		<meta name="author" content="Nobuho Hashimoto">
 
-        gtag('config', 'UA-193486918-2');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+		<!-- <script src="script.js"></script> -->
+		<!-- <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"> -->
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
 
-    <title>Nobuho Hashimoto's Profile</title>
-    <meta name="description" content="This is the Nobuho Hashimoto's profile Website. I am researching on image processing accelerators on an FPGA in the University of Tokyo.">
-    <meta name="author" content="Nobuho Hashimoto">
+		<link rel="alternate" hreflang="x-default" href="https://hashi0203.github.io/profile/">
+		<link rel="alternate" hreflang="en" href="https://hashi0203.github.io/profile/">
+		<link rel="alternate" hreflang="ja" href="https://hashi0203.github.io/profile/ja/">
 
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
+		<meta property="og:title" content="Nobuho Hashimoto's Profile">
+		<meta property="og:type" content="profile">
+		<meta property="og:url" content="https://hashi0203.github.io/profile/">
+		<meta property="og:image" content="https://github.com/hashi0203/profile/raw/main/img/favicon.png">
+		<meta property="og:site_name" content="Nobuho Hashimoto's Profile">
+		<meta property="og:description" content="This is the Nobuho Hashimoto's profile Website. I am researching on image processing accelerators on an FPGA in the University of Tokyo.">
+		<meta property="profile:first_name" content="Nobuho">
+		<meta property="profile:last_name" content="Hashimoto">
 
-    <link rel="alternate" hreflang="x-default" href="https://hashi0203.github.io/profile/">
-    <link rel="alternate" hreflang="en" href="https://hashi0203.github.io/profile/">
-    <link rel="alternate" hreflang="ja" href="https://hashi0203.github.io/profile/ja/">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <meta property="og:title" content="Nobuho Hashimoto's Profile">
-    <meta property="og:type" content="profile">
-    <meta property="og:url" content="https://hashi0203.github.io/profile/">
-    <meta property="og:image" content="https://github.com/hashi0203/profile/raw/main/img/favicon.png">
-    <meta property="og:site_name" content="Nobuho Hashimoto's Profile">
-    <meta property="og:description" content="This is the Nobuho Hashimoto's profile Website. I am researching on image processing accelerators on an FPGA in the University of Tokyo.">
-    <meta property="profile:first_name" content="Nobuho">
-    <meta property="profile:last_name" content="Hashimoto">
-</head>
-<body>
-    <div id="langCng">
-        <a href="./ja/" lang="ja" class="langBtn">日本語</a>
-        <a class="langBtn langChecked">English</a>
-    </div>
+		<!-- Header -->
+			<div id="header">
 
-    <h1>Nobuho Hashimoto</h1>
+				<div class="top">
 
-    <div class="contact">
-        <a href="https://www.facebook.com/n.hsmt1123/"><i class="fab fa-facebook fa-lg"></i><span class="icon-label">Facebook</span></a>
-        <a href="https://github.com/hashi0203"><i class="fab fa-github fa-lg"></i><span class="icon-label">GitHub</span></a>
-    </div>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Nobuho Hashimoto</h1>
+							<p>Software/Hardware Engineer</p>
+						</div>
 
-    <h2>Table of Contents</h2>
-    <ol id="toc"></ol>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
+								<li><a href="#languages" id="top-link"><span class="icon solid fa-laptop-code">Languages</span></a></li>
+								<li><a href="#research-edu" id="top-link"><span class="icon solid fa-graduation-cap">Research / Education</span></a></li>
+								<li><a href="#work" id="top-link"><span class="icon solid fa-building">Work</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#achievements" id="about-link"><span class="icon solid fa-trophy">Achievements</span></a></li>
+								<li><a href="#others" id="contact-link"><span class="icon solid fa-info-circle">Others</span></a></li>
+							</ul>
+						</nav>
 
-    <div id="contents">
-        <h2 id="basic-info">Basic Information</h2>
-        <ul>
-            <li>Birthday: 1999/02/03 (22 years old)</li>
-            <li>Residence: Tokyo, Japan</li>
-            <li>Affiliation: <a href="https://sites.google.com/view/casys/">Takamaeda Laboratory</a>, Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo</li>
-            <li>Contact: <script type="text/javascript">i();a();d();</script> <br class="br-sp"> (Replace <script type="text/javascript">a();</script> appropriately.)</li>
-        </ul>
+				</div>
 
-        <h2 id="tech">(Natural / Programming) Languages</h2>
-        <ul>
-            <li>Use on a Daily Basis
-                <ul>
-                    <li>Japanese (Native)</li>
-                    <li>Python</li>
-                    <li>C / C++</li>
-                    <li>JavaScript</li>
-                </ul>
-            </li>
-            <li>Use Sometimes
-                <ul>
-                    <li>English (Business)</li>
-                    <li>HTML / CSS</li>
-                    <li>PHP</li>
-                    <li>System Verilog</li>
-                </ul>
-            </li>
-            <li>Have Used Before
-                <ul>
-                    <li>Spanish</li>
-                    <li>Thai</li>
-                    <li>Chinese</li>
-                    <li>MySQL</li>
-                    <li>PostgreSQL</li>
-                    <li>Ruby</li>
-                    <li>OCaml</li>
-                    <li>Scheme</li>
-                    <li>VHDL</li>
-                    <li>Prolog</li>
-                </ul>
-            </li>
-        </ul>
+				<div class="bottom">
 
-        <h2 id="research">Research</h2>
-        <p>In the graduation thesis, I worked on accelerating an image processing filter called the bilateral filter using reconfigurable hardware (FPGA). Although image processing technology is applied in many fields such as medical diagnosis and self-driving, it is still difficult to process high-resolution images fast and small-scale. Therefore, I proposed its accelerator using parallelization and pipeline techniques, implemented on an FPGA, and verified that it was smaller and could process faster than the other existing approaches.</p>
-        <p>In the image processing fields, ML (Machine Learning) technology has been widely incorporated recently. Still, the technology requires more computation and execution time than the existing technologies. Therefore, I aim to create a helpful technology by building an acceleration mechanism specific to ML-based image processing technologies.</p>
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/hassy_iscs" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/n.hsmt1123/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/hashi0203" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a id="envelope" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
 
-        <h2 id="education">Education</h2>
-        <ul>
-            <li>2021/04 - present: Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo</li>
-            <li>2019/04 - 2021/03: Department of Information Science, School of Science, The University of Tokyo</li>
-            <li>2017/04 - 2019/03: Natural Sciences &#8544;, College of Arts and Sciences, The University of Tokyo</li>
-            <li>2014/04 - 2017/03: Seifu Nankai High School
-                <ul><li>2014/07 - 2014/08: Brisbane Grammar School (Australia) as an exchange student</li></ul>
-            </li>
-        </ul>
+				</div>
 
-        <h2 id="work">Work Experience (including internship)</h2>
-        <ul>
-            <li>2021/04 - present: Research Assistant at the University of Tokyo
-                <ul><li>Research on a multi-paradigm HLS (High-Level Synthesis) framework, which is easy to optimize the performance.</li></ul>
-            </li>
-            <li>2021/04 - present: Teaching Assistant at the University of Tokyo
-                <ul><li>Assistance in the class of the Hardware Lab in the Department of Information Science.</li></ul>
-            </li>
-            <li>2020/01 - 2020/08: Long-term internship at A Co., Ltd.
-                <ul>
-                    <li>Reverse Engineering of a product written in the C language.</li>
-                    <li>Development of an image processing AI using Python.</li>
-                    <li>Development of Websites and APIs using Django.</li>
-                </ul>
-            </li>
-            <li>2019/08: Summer internship at M Ltd.
-                <ul><li>Proposal of a brand-new Web service and its development in a group using GitHub. (Win the first prize.)</li></ul>
-            </li>
-            <li>2019/02 - 2019/03: Long-term internship at B Co., Ltd. in Thailand
-                <ul><li>Introduction of a business efficiency improving system.</li></ul>
-            </li>
-            <li>2017/04 - 2019/03: Project Leader at AIESEC in the University of Tokyo
-                <ul>
-                    <li>Operation of global internship programs as the incoming exchange department.
-                        <ul>
-                            <li>Overall support of internships in companies in Japan for foreign university students.</li>
-                            <li>Proposal of the global internships to the companies in Japan.</li>
-                            <li>Promotion of the global internships to the foreign students.</li>
-                            <li>Support of the immigration procedures, including VISA applications.</li>
-                            <li>Close communication with the internship participants to relieve anxiety, set the goals through the internship, and check the progress.</li>
-                        </ul>
-                    </li>
-                    <li>Co-creation with overseas AIESEC branches.
-                        <ul>
-                            <li>Participation in an international conference organized by AIESEC in Japan.</li>
-                            <li>Participation in a national conference in Taiwan as a guest.</li>
-                            <li>Participation in the Asia Pacific Conference in Sri Lanka.</li>
-                            <li>Organization of pre-training for an internship by visiting a student in Macau.</li>
-                        </ul>
-                    </li>
-                    <li>Participation in the other projects.
-                        <ul>
-                            <li>Organization of an exchange meeting &ldquo;<a href="http://www.aiesec.jp/press_ikari/">Ikari-wo-ageyo</a>&rdquo; (only in Japanese) in Fujitsu Solution Square.</li>
-                            <li>Plan and operation of welcoming events and external events.</li>
-                            <li>Management of my project members.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>2018/03 - 2018/05: Long-term internship at M Co., Ltd.
-                <ul><li>Blockchain survey writer.</li></ul>
-            </li>
-        </ul>
+			</div>
 
-        <h2 id="project">Personal Projects</h2>
-        <ul>
-            <li><a href="https://github.com/hashi0203/Vitis_HLS_Gaussian">Vitis_HLS_Gaussian</a>
-                <ul><li>Development of the Gaussian Filter using Vitis HLS.</li></ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/image-captioning">image-captioning</a>
-                <ul>
-                    <li>Development of an image captioning AI in Pytorch.</li>
-                    <li>Reference: &ldquo;<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf">Show and Tell: A Neural Image Caption Generator</a>&rdquo; by Vinayls et al. (ICML2015)</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/edge-layout-game">edge-layout-game</a>
-                <ul>
-                    <li>Development of a user-friendly game considering UI (User Interface) in JavaScript and HTML / CSS.</li>
-                    <li>The Website is available <a href="https://hashi0203-edge-layout-game.glitch.me/">here</a> (only in Japanese).</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/iscg-kadai">iscg-kadai</a>
-                <ul>
-                    <li>Various implementations related to CG (Computer Graphics), including parametric curves, ray tracing, image filtering, and so on in JavaScript and HTML / CSS.</li>
-                    <li>The Website is available <a href="https://hashi0203-iscg-kadai.glitch.me/">here</a>.</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/synner">synner</a>
-                <ul>
-                    <li>Development of an automatic data generation support Websites in JavaScript and HTML / CSS.</li>
-                    <li>Reference: &ldquo;<a href="http://azza.azurewebsites.net/files/Synner-UIST2019.pdf">Is this Real? Generating Synthetic Data that Looks Real</a>&rdquo; by Mannino et al. (UIST 2019)</li>
-                    <li>The Website is available <a href="https://synner.glitch.me/">here</a>.</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/cpuex2019-7th">cpuex2019-7th</a>
-                <ul>
-                    <li>Group development of a CPU on an FPGA based on RISC-V.</li>
-                    <li>Development of FPU (Floating Point Unit) in System Verilog.</li>
-                    <li>Development of FPU simulation in C.</li>
-                </ul>
-            </li>
-            <li>Various lifehacks on a Raspberry Pi
-                <ul>
-                    <li>Remote light controller using infrared LEDs.</li>
-                    <li>Voice operation using <a href="https://github.com/julius-speech/julius">Julius</a>.</li>
-                    <li>NAS (Network Attached Storage).</li>
-                    <li>Private Websites using Nginx and WordPress.</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/tetris">tetris</a>
-                <ul><li>Development of a Tetris game in JavaScript and HTML / CSS.</li></ul>
-            </li>
-            <li>OCaml Compiler
-                <ul><li>Development of an OCaml compiler in OCaml.</li></ul>
-            </li>
-            <li>Othello
-                <ul><li>Development of a strong Othello player in OCaml.</li></ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/group_allocation">group_allocation</a>
-                <ul><li>Development of a complex group allocation system in Python.</li></ul>
-            </li>
-        </ul>
+		<!-- Main -->
+			<div id="main">
 
-        <h2 id="license">Licenses, Certificates, and Prizes</h2>
-        <ul>
-            <li>2021/03: Education Network for Practical Information Technologies (enPiT)</li>
-            <li>2020/12: Applied Information Technology Engineer Examination</li>
-            <li>2020/02: TOEFL 98</li>
-            <li>2017/10: Driver's License</li>
-            <li>2017/08: TOEIC 910</li>
-            <li>2016/08: <a href="http://www.jpho.jp/2016/2016-2nd-chall-award-winners.pdf">Silver prize winner</a> (only in Japanese) in Japan Physics Olympiad in 2016</li>
-            <li>2015/11: The EIKEN Test in Practical English Proficiency Grade Pre-1</li>
-            <li>2014/06: The Japan Kanji Aptitude Test Grade 2</li>
-        </ul>
+				<!-- Introduction -->
+					<section id="top" class="one dark cover">
+						<div class="container">
 
-        <h2 id="activity">Other Activities</h2>
-        <ul>
-            <li>2021/04 - present: Scholarship graduate student in the Ito Scholarship Foundation.</li>
-            <li>2017/04 - 2021/03: Scholarship student in the Ito Scholarship Foundation.
-                <ul><li>2019/04 - 2020/03: Organization of a two days workshop as a committee member.</li></ul>
-            </li>
-            <li>2019/09: Participation in &ldquo;<a href="https://sapphire-tokyo.jp/wp-content/uploads/2019/06/%C2%940617%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%84%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A9%E3%82%B7.pdf">Scandinavian Blockchain Study Tour with Sota Watanabe</a>&rdquo; (only in Japanese) in Estonia and Finland.</li>
-            <li>2019/05: Keynote speech in &ldquo;<a href="https://sapphire-tokyo.jp/program/960/">Symposium on Blockchain and Exchange Meetings</a>&rdquo; (only in Japanese).
-                <ul><li>Slides are <a href="https://sapphire-tokyo.jp/blockchain2019/">here</a> (only in Japanese).</li></ul></li>
-        </ul>
-    </div>
+							<div class="top-right">
+								<ul class="langs">
+									<li class="active"><a href="./ja/" lang="ja"><span class="label">日本語</span></a></li>
+									<li><span class="label">English</span></li>
+								</ul>
+							</div>
 
-    <h2>Change Log</h2>
-    <ul>
-        <li>2021/04/13: Update the Research section in English.</li>
-        <li>2021/04/03: Open this Website.</li>
-    </ul>
+							<header>
+								<h2 class="alt">I'm <strong>Nobuho Hashimoto</strong>, a graduate student <br /> in the University of Tokyo (<a href="https://sites.google.com/view/casys/">Takamaeda Lab</a>).</h2>
+								<p>I'm researching on acceleration of image and point-cloud processing on an <a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>.<br />
+								I'm also in the middle of job hunting.</p>
+							</header>
 
-    <footer>
-        <a href="#" id="page-top"><i class="fa fa-chevron-up"></i></a>
-    </footer>
-</body>
+							<footer>
+								<a href="#languages" class="button scrolly">See My Profile</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Languages -->
+					<section id="languages" class="two">
+						<div class="container">
+							<header>
+								<h2>(Natural/Programming) Languages</h2>
+							</header>
+
+							<p>These are the languages I am using and have been used so far. But I am eager to try other languages and can become familiar with them soon based on my experience.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">Use on a Daily Basis</h3>
+										<ul class="lang-lst">
+											<li>Japanese (Native)</li>
+											<li>Python</li>
+											<li>C / C++</li>
+											<li>JavaScript</li>
+										</ul>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">Use Sometimes</h3>
+										<ul class="lang-lst">
+											<li>English (Business)</li>
+											<li>HTML / CSS</li>
+											<li>PHP</li>
+											<li>System Verilog</li>
+											<li>OCaml</li>
+										</ul>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">Have Used Before</h3>
+										<ul class="lang-lst">
+											<li>Spanish</li>
+											<li>Thai</li>
+											<li>Chinese</li>
+											<li>MySQL / PostgreSQL</li>
+											<li>Ruby</li>
+											<li>Java</li>
+											<li>Scheme</li>
+											<li>VHDL</li>
+											<li>Prolog</li>
+										</ul>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+				<!-- Research -->
+					<section id="research-edu" class="three">
+						<div class="container">
+							<header>
+								<h2>Research / Education</h2>
+							</header>
+
+							<h3>Research</h3>
+							<p>In the graduation thesis, I worked on <strong>accelerating an image processing filter</strong> called the <a href="https://en.wikipedia.org/wiki/Bilateral_filter">bilateral filter</a> using reconfigurable hardware (<a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>). Although image processing technology is applied in many fields such as <strong>medical diagnosis and self-driving</strong>, it is still difficult to process high-resolution images fast and small-scale. Therefore, I proposed its accelerator using <strong>parallelization and pipeline techniques</strong>, implemented on an FPGA, and verified that it was smaller and could process faster than the other existing approaches.</p>
+							<p>In the image processing fields, ML (<a href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a>) technology has been widely incorporated recently. Still, the technology requires more computation and execution time than the existing technologies. Therefore, I aim to create a helpful technology by building an <strong>acceleration mechanism specific to ML-based image and point-cloud processing technologies</strong>.</p>
+
+							<h3>Education</h3>
+							<table>
+								<tr>
+									<td>2021/04&nbsp;- present</td>
+									<td>Department of <strong>Computer Science</strong>, Graduate School of Information Science and Technology, The University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>2019/04&nbsp;- 2021/03</td>
+									<td>Department of <strong>Information Science</strong>, School of Science, The University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>2017/04&nbsp;- 2019/03</td>
+									<td>Natural Sciences I, College of Arts and Sciences, The University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>2014/04&nbsp;- 2017/03</td>
+									<td>Seifu Nankai High School</td>
+								</tr>
+								<tr>
+									<td>2014/07&nbsp;- 2014/08</td>
+									<td>Brisbane Grammar School (Australia) as an exchange student</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Work -->
+					<section id="work" class="four">
+						<div class="container">
+							<header>
+								<h2>Work</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td rowspan="2">2021/04&nbsp;- present</td>
+									<td><strong>Research Assistant</strong> at the University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>Research on a multi-paradigm HLS (High-Level Synthesis) framework, which is easy to optimize the performance.</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2021/04&nbsp;- present</td>
+									<td><strong>Teaching Assistant</strong> at the University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>Assistance in the class of the <strong>Hardware Lab</strong> in the Department of Information Science.</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2020/01&nbsp;- 2020/08</td>
+									<td><strong>Long-term internship</strong> at A Co., Ltd.</td>
+								</tr>
+								<tr>
+									<td><strong>Reverse Engineering</strong> of a product written in the C language. Development of an <strong>image processing AI</strong> using Python. Development of Websites and APIs using Django.</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2019/08</td>
+									<td><strong>Summer internship</strong> at M Ltd.</td>
+								</tr>
+								<tr>
+									<td>Proposal of a brand-new Web service and its development in a group using GitHub and AWS (see <a href="https://github.com/hashi0203/SummerIntern">here</a>). (<strong>Win the first prize</strong>.)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2019/02&nbsp;- 2019/03</td>
+									<td><strong>Long-term internship</strong> at B Co., Ltd. in <strong>Thailand</strong></td>
+								</tr>
+								<tr>
+									<td>Introduction of a business efficiency improving system.</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2017/04&nbsp;- 2019/03</td>
+									<td><strong>Project Leader</strong> at <strong>AIESEC</strong> in the University of Tokyo</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Operation of global internship</strong> programs as the incoming exchange department.
+										<ul class="li-small">
+											<li>Overall support of internships in companies in Japan for foreign university students.</li>
+											<li><strong>Proposal</strong> of the global internships to the companies in Japan.</li>
+											<li><strong>Promotion</strong> of the global internships to the foreign students.</li>
+											<li>Support of the immigration procedures, including <strong>VISA applications</strong>.</li>
+											<li><strong>Close communication</strong> with the internship participants to relieve anxiety, set the goals through the internship, and check the progress.</li>
+										</ul>
+										Co-creation with <strong>overseas AIESEC branches</strong>.
+										<ul class="li-small">
+											<li>Participation in <strong>international conferences</strong> in Japan, in Taiwan, and in Sri Lanka.</li>
+											<li>Organization of pre-training for an internship by visiting a student in Macau.</li>
+										</ul>
+										Participation in the other projects.
+										<ul class="li-small">
+											<li>Organization of an exchange meeting &ldquo;<a href="http://www.aiesec.jp/press_ikari/">Ikari-wo-ageyo</a>&rdquo; (only in Japanese) in Fujitsu Solution Square.</li>
+											<li>Plan and operation of <strong>welcoming events and external events</strong>.</li>
+											<li><strong>Management of my project members</strong>.</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2018/03&nbsp;- 2018/05</td>
+									<td><strong>Long-term internship</strong> at M Co., Ltd.</td>
+								</tr>
+								<tr>
+									<td>Blockchain survey writer.</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<div class="row">
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/fpga-icon.png" alt="FPGA icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of the Gaussian Filter using Vitis HLS, Vivado, and PYNQ on an FPGA.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/Vitis_HLS_Gaussian">Vitis_HLS_Gaussian</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/pytorch-icon.png" alt="Pytorch icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of an image captioning AI in Pytorch. Reference: &ldquo;<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf">Show and Tell: A Neural Image Caption Generator</a>&rdquo; by Vinayls et al. (ICML2015)
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/image-captioning">image-captioning</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/edge-icon.png" alt="Edge Layout Game icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of a user-friendly game considering UI (User Interface) in JavaScript and HTML / CSS. The Website is available <a href="https://hashi0203-edge-layout-game.glitch.me/">here</a> (only in Japanese).
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/edge-layout-game">edge-layout-game</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/cg-icon.png" alt="Lay Tracing icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Various implementations related to CG (Computer Graphics), including parametric curves, ray tracing, image filtering, and so on in JavaScript and HTML / CSS. The Website is available <a href="https://hashi0203-iscg-kadai.glitch.me/">here</a>.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/iscg-kadai">iscg-kadai</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/synner-icon.png" alt="Synner icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of an automatic data generation support Websites in JavaScript and HTML / CSS. Reference: &ldquo;<a href="http://azza.azurewebsites.net/files/Synner-UIST2019.pdf">Is this Real? Generating Synthetic Data that Looks Real</a>&rdquo; by Mannino et al. (UIST 2019) The Website is available <a href="https://synner.glitch.me/">here</a>.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/synner">synner</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/risc-v-icon.png" alt="RISC-V icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Group development of a CPU on an FPGA based on RISC-V. Development of FPU (Floating Point Unit) in System Verilog. Development of FPU simulation in C.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/cpuex2019-7th">cpuex2019-7th</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/raspberry-pi-icon.png" alt="Raspberry Pi icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Remote light controller using infrared LEDs. Voice operation using <a href="https://github.com/julius-speech/julius">Julius</a>. NAS (Network Attached Storage). Private Websites using Nginx and WordPress.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3>Various lifehacks on a Raspberry Pi</h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/tetris-icon.png" alt="Tetris icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of a Tetris game in JavaScript and HTML / CSS.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/tetris">tetris</a></h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/ocaml-icon.png" alt="OCaml icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of an OCaml compiler in OCaml.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3>OCaml Compiler</h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/othello-icon.png" alt="Othello icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of a strong Othello player in OCaml.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3>Othello</h3>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-narrow col-6-narrower">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="images/python-icon.png" alt="Python icon" /></span>
+											<div class="wrapper">
+												<div class="expl">
+													Development of a complex group allocation system in Python.
+												</div>
+											</div>
+										</div>
+										<header>
+											<h3><a href="https://github.com/hashi0203/group_allocation">group_allocation</a></h3>
+										</header>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Achievements -->
+					<section id="achievements" class="three">
+						<div class="container">
+							<header>
+								<h2>Achievements</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td>2021/03</td>
+									<td>Education Network for Practical Information Technologies (enPiT)</td>
+								</tr>
+								<tr>
+									<td>2020/12</td>
+									<td>Applied Information Technology Engineer Examination</td>
+								</tr>
+								<tr>
+									<td>2020/02</td>
+									<td>TOEFL iBT Score: 98</td>
+								</tr>
+								<tr>
+									<td>2017/10</td>
+									<td>Driver's License</td>
+								</tr>
+								<tr>
+									<td>2017/08</td>
+									<td>TOEIC Score: 910</td>
+								</tr>
+								<tr>
+									<td>2016/08</td>
+									<td><a href="http://www.jpho.jp/2016/2016-2nd-chall-award-winners.pdf">Silver prize winner</a> (only in Japanese) in Japan Physics Olympiad in 2016</li></td>
+								</tr>
+								<tr>
+									<td>2015/11</td>
+									<td>The EIKEN Test in Practical English Proficiency Grade Pre-1</td>
+								</tr>
+								<tr>
+									<td>2014/06</td>
+									<td>The Japan Kanji Aptitude Test Grade 2</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Others -->
+					<section id="others" class="four">
+						<div class="container">
+							<header>
+								<h2>Others</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td>2021/05&nbsp;- present</td>
+									<td>Accountant in the <a href="https://sites.google.com/site/miyabikaiweb/">Miyabi-kai</a> (only in Japanese) (Alumuni group of the <a href="https://www.ito-foundation.or.jp/">Ito Scholarship Foundation</a> (only in Japanese)).</td>
+								</tr>
+								<tr>
+									<td>2021/04&nbsp;- present</td>
+									<td>Scholarship graduate student in the Ito Scholarship Foundation.</td>
+								</tr>
+								<tr>
+									<td>2017/04&nbsp;- 2021/03</td>
+									<td>Scholarship student in the Ito Scholarship Foundation.</td>
+								</tr>
+								<tr>
+									<td>2019/04&nbsp;- 2020/03</td>
+									<td>Executive committee member to organize a two days workshop in the Ito Scholarship Foundation.</td>
+								</tr>
+								<tr>
+									<td>2019/09</td>
+									<td>
+										Participation in &ldquo;<a href="https://sapphire-tokyo.jp/wp-content/uploads/2019/06/%C2%940617%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%84%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A9%E3%82%B7.pdf">Scandinavian Blockchain Study Tour with Sota Watanabe</a>&rdquo; (only in Japanese) in Estonia and Finland.
+									</td>
+								</tr>
+								<tr>
+									<td>2019/08</td>
+									<td>
+										Instructor of science classes in &ldquo;<a href="https://sapphire-tokyo.jp/blog/%e6%97%a5%e8%b1%aa%e5%90%88%e5%90%8c%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%82%b9%e6%95%99%e5%ae%a4%e9%96%8b%e5%82%ac%ef%bc%88%ef%bc%98%e6%9c%881415%e6%97%a5%ef%bc%89/">Japan-Australia Science Laboratory</a>&rdquo; (only in Japanese) in Australia.
+									</td>
+								</tr>
+								<tr>
+									<td>2019/05</td>
+									<td>
+										Keynote speech in &ldquo;<a href="https://sapphire-tokyo.jp/program/960/">Symposium on Blockchain and Exchange Meetings</a>&rdquo; (only in Japanese). Slides are <a href="https://sapphire-tokyo.jp/blockchain2019/">here</a> (only in Japanese).
+									</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<a href="#top" id="page-top" class="scrolly"><i class="fa fa-chevron-up"></i></a>
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2021 <a href="#top" class="scrolly">Nobuho Hashimoto</a> All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Contact information is in the bottom of the sidebar.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
