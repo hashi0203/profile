@@ -122,6 +122,8 @@
 
 })(jQuery);
 
+// Custom
+var touch;
 $(document).ready(function() {
 	var t = String.fromCharCode(131-22,78+19,141-36,65+43,146-30,60+51,63-5);
 	var i = String.fromCharCode(114-4,36+10,125-21,106+9,127-18,85+31,58-12,100+15,123-16);
@@ -130,7 +132,7 @@ $(document).ready(function() {
 	$("#envelope").attr("href", t+i+a+d);
 
     // タッチデバイスなら hover を無効化
-    var touch = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+    touch = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
     if(touch) {
 		try {
 			for (var si in document.styleSheets) {
@@ -148,6 +150,7 @@ $(document).ready(function() {
 		} catch (ex) {}
     }
 
+	// セクションに上からクラスをつける
 	$('section').each(function(idx, e) {
 		if (idx == 0) {
 			$(e).addClass("one");
@@ -161,9 +164,14 @@ $(document).ready(function() {
 	});
 });
 
+// ポートフォリオの画像にホバーした時の処理
 $('.port-img').mouseover(function(e) {
-	$(this).find(".wrapper").addClass("port-hover");
+	if (!touch) {
+		$(this).find(".wrapper").addClass("port-hover");
+	}
 });
 $('.port-img').mouseout(function(e) {
-	$(this).find(".wrapper").removeClass("port-hover");
+	if (!touch) {
+		$(this).find(".wrapper").removeClass("port-hover");
+	}
 });
