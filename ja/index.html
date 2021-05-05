@@ -1,259 +1,687 @@
 <!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="ja">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-193486918-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>橋本信歩のプロフィール</title>
+		<meta name="description" content="橋本信歩のプロフィールです．東京大学大学院で FPGA を用いて画像や点群データの処理を高速化するハードウェアの研究を行っています．">
+		<meta name="author" content="Nobuho Hashimoto">
 
-        gtag('config', 'UA-193486918-2');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+		<!-- <script src="script.js"></script> -->
+		<!-- <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"> -->
+		<link rel="icon" type="image/png" href="../img/favicon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon.png">
 
-    <title>橋本信歩のプロフィール</title>
-    <meta name="description" content="橋本信歩のプロフィールです．東京大学大学院で FPGA を用いて画像処理を高速化するハードウェアの研究を行っています．">
-    <meta name="author" content="Nobuho Hashimoto">
+		<link rel="alternate" hreflang="x-default" href="https://hashi0203.github.io/profile/">
+		<link rel="alternate" hreflang="en" href="https://hashi0203.github.io/profile/">
+		<link rel="alternate" hreflang="ja" href="https://hashi0203.github.io/profile/ja/">
 
-    <script src="../script.js"></script>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="icon" type="image/png" href="../img/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon.png">
+		<meta property="og:title" content="橋本信歩のプロフィール">
+		<meta property="og:type" content="profile">
+		<meta property="og:url" content="https://hashi0203.github.io/profile/">
+		<meta property="og:image" content="https://github.com/hashi0203/profile/raw/main/img/favicon.png">
+		<meta property="og:site_name" content="橋本信歩のプロフィール">
+		<meta property="og:description" content="橋本信歩のプロフィールです．東京大学大学院で FPGA を用いて画像や点群データの処理を高速化するハードウェアの研究を行っています．">
+		<meta property="profile:first_name" content="信歩">
+		<meta property="profile:last_name" content="橋本">
 
-    <link rel="alternate" hreflang="x-default" href="https://hashi0203.github.io/profile/">
-    <link rel="alternate" hreflang="en" href="https://hashi0203.github.io/profile/">
-    <link rel="alternate" hreflang="ja" href="https://hashi0203.github.io/profile/ja/">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <meta property="og:title" content="橋本信歩のプロフィール">
-    <meta property="og:type" content="profile">
-    <meta property="og:url" content="https://hashi0203.github.io/profile/ja/">
-    <meta property="og:image" content="https://github.com/hashi0203/profile/raw/main/img/favicon.png">
-    <meta property="og:site_name" content="橋本信歩のプロフィール">
-    <meta property="og:description" content="橋本信歩のプロフィールです．東京大学大学院で FPGA を用いて画像処理を高速化するハードウェアの研究を行っています．">
-    <meta property="profile:first_name" content="信歩">
-    <meta property="profile:last_name" content="橋本">
-</head>
-<body>
-    <div id="langCng">
-        <a class="langBtn langChecked">日本語</a>
-        <a href="../" lang="en" class="langBtn">English</a>
-    </div>
+		<!-- Header -->
+			<div id="header">
 
-    <h1>橋本 信歩 <br class="br-sp"> (ハシモト ノブホ)</h1>
+				<div class="top">
 
-    <div class="contact">
-        <a href="https://www.facebook.com/n.hsmt1123/"><i class="fab fa-facebook fa-lg"></i><span class="icon-label">Facebook</span></a>
-        <a href="https://github.com/hashi0203"><i class="fab fa-github fa-lg"></i><span class="icon-label">GitHub</span></a>
-    </div>
+					<!-- Logo -->
+						<div id="logo">
+							<!-- <span class="image avatar48"><img src="../images/avatar.jpg" alt="" /></span> -->
+							<span class="image avatar48"><img src="../img/favicon.png" alt="" /></span>
+							<h1 id="title">橋本 信歩</h1>
+							<p>ソフト/ハードウェア エンジニア</p>
+						</div>
 
-    <h2>目次</h2>
-    <ol id="toc"></ol>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">自己紹介</span></a></li>
+								<li><a href="#languages" id="languages-link"><span class="icon solid fa-laptop-code">言語</span></a></li>
+								<li><a href="#favorites" id="favorites-link"><span class="icon solid fa-heart">趣味</span></a></li>
+								<li><a href="#research-edu" id="research-edu-link"><span class="icon solid fa-graduation-cap">研究 / 学歴</span></a></li>
+								<li><a href="#work" id="work-link"><span class="icon solid fa-building">職歴</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">ポートフォリオ</span></a></li>
+								<li><a href="#achievements" id="achievements-link"><span class="icon solid fa-trophy">実績</span></a></li>
+								<li><a href="#others" id="others-link"><span class="icon solid fa-info-circle">その他活動</span></a></li>
+							</ul>
+						</nav>
 
-    <div id="contents">
-        <h2 id="basic-info">基本情報</h2>
-        <ul>
-            <li>生年月日: 1999/02/03 (満 22 歳)</li>
-            <li>居住地: 東京</li>
-            <li>所属: 東京大学大学院 情報理工学系研究科 コンピュータ科学専攻 <a href="https://sites.google.com/view/casys-ja/">高前田研究室</a></li>
-            <li>連絡先: <script type="text/javascript">i();a();d();</script> <br class="br-sp"> (<script type="text/javascript">a();</script> を適切に置き換えてください)</li>
-        </ul>
+				</div>
 
-        <h2 id="tech">(自然 / プログラミング) 言語等</h2>
-        <ul>
-            <li>日常的に使用する
-                <ul>
-                    <li>日本語 (ネイティブ)</li>
-                    <li>Python</li>
-                    <li>C / C++</li>
-                    <li>JavaScript</li>
-                </ul>
-            </li>
-            <li>時々使用する
-                <ul>
-                    <li>英語 (ビジネスレベル)</li>
-                    <li>HTML / CSS</li>
-                    <li>PHP</li>
-                    <li>System Verilog</li>
-                </ul>
-            </li>
-            <li>使用したことがある
-                <ul>
-                    <li>スペイン語</li>
-                    <li>タイ語</li>
-                    <li>中国語</li>
-                    <li>MySQL</li>
-                    <li>PostgreSQL</li>
-                    <li>Ruby</li>
-                    <li>OCaml</li>
-                    <li>Scheme</li>
-                    <li>VHDL</li>
-                    <li>Prolog</li>
-                </ul>
-            </li>
-        </ul>
+				<div class="bottom">
 
-        <h2 id="research">研究内容</h2>
-        <p>卒業論文では再構成可能なハードウェア (FPGA) を用いたバイラテラルフィルタという画像処理フィルタの高速化に取り組みました．医療や自動運転など様々な場面で必要となる画像処理技術ですが，4K や 8K のような高解像度な画像を小規模かつ高速に処理するのは困難です．そこで，並列化やパイプライン化と呼ばれる技術を駆使して，高速に処理できる構造を提案し，それを実際に FPGA 上に実装し，既存手法より小規模で高速に動作することを検証しました．</p>
-        <p>さらに，画像処理技術には近年機械学習という技術がよく取り入れられていますが，既存の技術に比べて計算回数が多く，処理に時間がかかってしまうことが課題となっています．そこで，今後は機械学習を用いた画像処理技術に特化して高速化できるハードウェアの仕組みを構築することで社会に役立つ技術の創出を目指します．</p>
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/hassy_iscs" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/n.hsmt1123/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/hashi0203" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a id="envelope" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
 
-        <h2 id="education">学歴</h2>
-        <ul>
-            <li>2021/04 - 現在: 東京大学大学院 情報理工学系研究科 コンピュータ科学専攻</li>
-            <li>2019/04 - 2021/03: 東京大学 理学部 情報科学科</li>
-            <li>2017/04 - 2019/03: 東京大学 理科 &#8544; 類</li>
-            <li>2014/04 - 2017/03: 清風南海高等学校 &#8545; 類
-                <ul><li>2014/07 - 2014/08: ブリスベン&#12539;グラマー&#12539;スクール (オーストラリア) に短期交換留学</li></ul>
-            </li>
-        </ul>
+				</div>
 
-        <h2 id="work">職歴 (インターン等を含む)</h2>
-        <ul>
-            <li>2021/04 - 現在: 東京大学 短時間勤務雇用教職員 (研究補佐員)
-                <ul><li>性能最適化が容易なマルチパラダイム型高位合成フレームワークに関する研究補助</li></ul>
-            </li>
-            <li>2021/04 - 現在: 東京大学 ティーチングアシスタント (TA)
-                <ul><li>東京大学理学部情報科学科のハードウェア実験における補助</li></ul>
-            </li>
-            <li>2020/01 - 2020/08: 株式会社A 長期インターンシップ
-                <ul>
-                    <li>C言語プロダクトのリバースエンジニアリング</li>
-                    <li>Python を用いた画像認識 AI の開発</li>
-                    <li>Django を用いた Web ページ及び API の開発</li>
-                </ul>
-            </li>
-            <li>2019/08: 株式会社M サマーインターンシップ
-                <ul><li>新規 Web サービスの提案及び GitHub を用いたグループ開発 (最優秀賞を受賞)</li></ul>
-            </li>
-            <li>2019/02 - 2019/03: B Co., Ltd. (タイ) 長期インターンシップ
-                <ul><li>業務効率化システムの導入サポート</li></ul>
-            </li>
-            <li>2017/04 - 2019/03: 特定非営利活動法人 アイセック東京大学委員会 プロジェクトリーダー
-                <ul>
-                    <li>受入事業部として海外インターンシップ事業を運営
-                        <ul>
-                            <li>海外の外国人大学生の日本国内の企業でのインターンシップを全般的に支援</li>
-                            <li>国内企業へのインターンシップ事業の提案</li>
-                            <li>海外学生に向けたインターンシップ事業の販促</li>
-                            <li>入国のための手続き (VISA 申請等) の支援</li>
-                            <li>来日した外国人との密なコミュニケーション (不安解消やインターンを通じた目標設定と進捗確認)</li>
-                        </ul>
-                    </li>
-                    <li>海外アイセック支部との協働
-                        <ul>
-                            <li>アイセックジャパン主催の国際会議に参加</li>
-                            <li>台湾の国内総会にゲスト参加</li>
-                            <li>スリランカで行われた Asia Pacific Conference に参加</li>
-                            <li>マカオ在住の学生の元を訪れてのインターンシップ事前研修の実施</li>
-                        </ul>
-                    </li>
-                    <li>その他事業への参画
-                        <ul>
-                            <li>富士通ソリューションスクエアにて交流会「<a href="http://www.aiesec.jp/press_ikari/">錨をあげよ</a>」を主催</li>
-                            <li>新歓や対外イベントの企画運営</li>
-                            <li>プロジェクトメンバーのマネジメント</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>2018/03 - 2018/05: M株式会社 長期インターンシップ
-                <ul><li>ブロックチェーン記事のライター業務</li></ul>
-            </li>
-        </ul>
+			</div>
 
-        <h2 id="project">個人のプロジェクト</h2>
-        <ul>
-            <li><a href="https://github.com/hashi0203/Vitis_HLS_Gaussian">Vitis_HLS_Gaussian</a>
-                <ul><li>Vitis HLS を用いたガウシアンフィルタの実装</li></ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/image-captioning">image-captioning</a>
-                <ul>
-                    <li>Pytorch を用いた画像説明文生成のための AI</li>
-                    <li>参考論文: &ldquo;<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf">Show and Tell: A Neural Image Caption Generator</a>&rdquo; by Vinayls et al. (ICML2015)</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/edge-layout-game">edge-layout-game</a>
-                <ul>
-                    <li>JavaScript と HTML / CSS を用いた UI を考慮したゲーム開発</li>
-                    <li><a href="https://hashi0203-edge-layout-game.glitch.me/">こちら</a>に公開中</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/iscg-kadai">iscg-kadai</a>
-                <ul>
-                    <li>JavaScript と HTML / CSS を用いたパラメトリック曲線やレイトレーシングや画像処理フィルタなど CG に関する様々な実装</li>
-                    <li><a href="https://hashi0203-iscg-kadai.glitch.me/">こちら</a>に公開中</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/synner">synner</a>
-                <ul>
-                    <li>JavaScript と HTML / CSS を用いた自動データ生成を支援する Web ページの作成</li>
-                    <li>参考論文: &ldquo;<a href="http://azza.azurewebsites.net/files/Synner-UIST2019.pdf">Is this Real? Generating Synthetic Data that Looks Real</a>&rdquo; by Mannino et al. (UIST 2019)</li>
-                    <li><a href="https://synner.glitch.me/">こちら</a>に公開中</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/cpuex2019-7th">cpuex2019-7th</a>
-                <ul>
-                    <li>グループでの FPGA 上で動く RISC-V ベースの CPU 開発</li>
-                    <li>System Verilog を用いた FPU (浮動小数点演算処理装置) の開発</li>
-                    <li>C 言語を用いた FPU のシミュレーションの実装</li>
-                </ul>
-            </li>
-            <li>Raspberry Pi を用いたライフハック</a>
-                <ul>
-                    <li>赤外線 LED を用いたライト用のリモコン</li>
-                    <li><a href="https://julius.osdn.jp/index.php?q=whatis.html">Julius</a>を用いた音声処理機構</li>
-                    <li>自宅用の NAS (Network Attached Storage)</li>
-                    <li>Nginx と WordPress を用いた個人用の Web サイト</li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/tetris">tetris</a>
-                <ul><li>JavaScript と HTML / CSS を用いたテトリス開発</li></ul>
-            </li>
-            <li>OCaml コンパイラ
-                <ul><li>OCaml を用いた OCaml のコンパイラ開発</li></ul>
-            </li>
-            <li>オセロ
-                <ul><li>OCaml を用いた強い Othello プレーヤーの開発</li></ul>
-            </li>
-            <li><a href="https://github.com/hashi0203/group_allocation">group_allocation</a>
-                <ul><li>Python を用いた複雑な制約のあるグループ分け問題を解くシステムの開発</li></ul>
-            </li>
-        </ul>
+		<!-- Main -->
+			<div id="main">
 
-        <h2 id="license">免許&#12539;資格&#12539;受賞等</h2>
-        <ul>
-            <li>2021/03: 成長分野を支える情報技術人材の育成拠点の形成 (enPiT) ビッグデータ&#12539;AI分野 (AiBiC) 修了</li>
-            <li>2020/12: 応用情報技術者試験 合格</li>
-            <li>2020/02: TOEFL スコア 98点 取得</li>
-            <li>2017/10: 普通自動車第一種運転免許 (AT 限定) 取得</li>
-            <li>2017/08: TOEIC スコア 910 点 取得</li>
-            <li>2016/08: 第12回全国物理コンテスト「物理チャレンジ2016」 <a href="http://www.jpho.jp/2016/2016-2nd-chall-award-winners.pdf">銀賞受賞</a></li>
-            <li>2015/11: 実用英語技能検定準1級 合格</li>
-            <li>2014/06: 日本漢字能力検定2級 合格</li>
-        </ul>
+				<!-- Introduction -->
+					<section id="top" class="dark cover">
+						<div class="container">
 
-        <h2 id="activity">その他活動</h2>
-        <ul>
-            <li>2021/04 - 現在: 伊藤謝恩育英財団大学院奨学生</li>
-            <li>2017/04 - 2021/03: 伊藤謝恩育英財団学部奨学生
-                <ul><li>2019/04 - 2020/03: 研修会実行委員として1泊2日の研修会の企画運営を担当</li></ul>
-            </li>
-            <li>2019/09: エストニア及びフィンランドへの「<a href="https://sapphire-tokyo.jp/wp-content/uploads/2019/06/%C2%940617%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%84%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A9%E3%82%B7.pdf">渡邉創太さんと行くブロックチェーン北欧スタディツアー</a>」に参加</li>
-            <li>2019/05: 「<a href="https://sapphire-tokyo.jp/program/960/">ブロックチェーン社会に関するシンポジウム&交流会</a>」にて基調講演を担当
-                <ul><li>スライドは<a href="https://sapphire-tokyo.jp/blockchain2019/">こちら</a></li></ul></li>
-        </ul>
-    </div>
+							<div class="top-right">
+								<ul class="langs">
+									<li><span class="label">日本語</span></li>
+									<li class="clickable"><a href="../" lang="en"><span class="label">English</span></a></li>
+								</ul>
+							</div>
 
-    <h2>更新履歴</h2>
-    <ul>
-        <li>2021/04/03: ホームページを開設しました．</li>
-    </ul>
+							<header>
+								<h2 class="alt">東京大学大学院 <a href="https://sites.google.com/view/casys-ja/">高前田研究室</a> の<br /><strong>橋本信歩</strong>(はしもとのぶほ)です．</h2>
+								<p><a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>を用いた画像や点群データの処理の高速化について研究していて，<br />
+								現在就職活動中です．</p>
+							</header>
 
-    <footer>
-        <a href="#" id="page-top"><i class="fa fa-chevron-up"></i></a>
-    </footer>
-</body>
+							<footer>
+								<a href="#languages" class="button scrolly">プロフィールへ</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Languages -->
+					<section id="languages">
+						<div class="container">
+							<header>
+								<h2>(自然 / プログラミング) 言語</h2>
+							</header>
+
+							<p>使用している，もしくは使用したことのある言語は以下の通りです．その他の言語についても学びたいと考えていて，これまでの経験からすぐに習得できると思います．</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">日常的に使用</h3>
+										<ul class="lang-lst">
+											<li>日本語 (ネイティブ)</li>
+											<li>Python</li>
+											<li>C / C++</li>
+											<li>Vitis / Vivado HLS</li>
+											<li>JavaScript</li>
+											<li>bash / zsh</li>
+										</ul>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">時々使用する</h3>
+										<ul class="lang-lst">
+											<li>英語 (ビジネスレベル)</li>
+											<li>HTML / CSS</li>
+											<li>PHP</li>
+											<li>System Verilog</li>
+											<li>OCaml</li>
+										</ul>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<h3 class="lang-header">使用経験あり</h3>
+										<ul class="lang-lst">
+											<li>スペイン語</li>
+											<li>タイ語</li>
+											<li>中国語</li>
+											<li>MySQL / PostgreSQL</li>
+											<li>Ruby</li>
+											<li>Java</li>
+											<li>Scheme</li>
+											<li>VHDL</li>
+											<li>Prolog</li>
+										</ul>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+                    <section id="favorites">
+						<div class="container">
+							<header>
+								<h2>趣味</h2>
+							</header>
+
+							<div class="row">
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/programming.JPG" alt="Programming icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>プログラミング</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/travel.JPG" alt="Travel icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>旅行</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/soccer.JPG" alt="Soccer icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>サッカー</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/swim.JPG" alt="Swim icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>水泳</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/ski.JPG" alt="Ski icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>スキー</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/fishing.JPG" alt="Fishing icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>釣り</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+				<!-- Research -->
+					<section id="research-edu">
+						<div class="container">
+							<header>
+								<h2>研究 / 学歴</h2>
+							</header>
+
+							<h3>研究</h3>
+                            <p>卒業論文では再構成可能なハードウェア (<a href="https://ja.wikipedia.org/wiki/FPGA">FPGA</a>) を用いた<a href="https://imagingsolution.net/imaging/bilateralfilter/">バイラテラルフィルタ</a>という<strong>画像処理フィルタの高速化</strong>に取り組みました．<strong>医療や自動運転</strong>など様々な場面で必要となる画像処理技術ですが，4K や 8K のような高解像度な画像を小規模かつ高速に処理するのは困難です．そこで，<strong>並列化やパイプライン化</strong>と呼ばれる技術を駆使して，高速に処理できる構造を提案し，それを実際に FPGA 上に実装し，既存手法より小規模で高速に動作することを検証しました．</p>
+                            <p>さらに，画像処理技術には近年<a href="https://ja.wikipedia.org/wiki/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92">機械学習</a>という技術がよく取り入れられていますが，既存の技術に比べて計算回数が多く，処理に時間がかかってしまうことが課題となっています．そこで，今後は<strong>機械学習を用いた画像や点群データの処理に特化して高速化できるハードウェアの仕組み</strong>を構築することで社会に役立つ技術の創出を目指します．</p>
+
+							<h3>学歴</h3>
+							<table>
+								<tr>
+									<td>2021/04&nbsp;- 現在</td>
+									<td>東京大学大学院 情報理工学系研究科 <strong>コンピュータ科学</strong>専攻</td>
+								</tr>
+								<tr>
+									<td>2019/04&nbsp;- 2021/03</td>
+									<td>東京大学 理学部 <strong>情報科学科</strong></td>
+								</tr>
+								<tr>
+									<td>2017/04&nbsp;- 2019/03</td>
+									<td>東京大学 理科&#8544;類</td>
+								</tr>
+								<tr>
+									<td>2014/04&nbsp;- 2017/03</td>
+									<td>清風南海高等学校 &#8545;類</td>
+								</tr>
+								<tr>
+									<td>2014/07&nbsp;- 2014/08</td>
+									<td>ブリスベン&#12539;グラマー&#12539;スクール (<strong>オーストラリア</strong>) に短期交換留学</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Work -->
+					<section id="work">
+						<div class="container">
+							<header>
+								<h2>職歴 (インターン等を含む)</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td rowspan="2">2021/04&nbsp;- 現在</td>
+									<td>東京大学 短時間勤務雇用教職員 (<strong>研究補佐員</strong>)</td>
+								</tr>
+								<tr>
+									<td>性能最適化が容易なマルチパラダイム型高位合成フレームワークに関する研究補助．</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2021/04&nbsp;- 現在</td>
+									<td>東京大学 ティーチングアシスタント (<strong>TA</strong>)</td>
+								</tr>
+								<tr>
+									<td>東京大学理学部情報科学科の<strong>ハードウェア実験</strong>における補助．</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2020/01&nbsp;- 2020/08</td>
+									<td>株式会社A <strong>長期インターンシップ</strong></td>
+								</tr>
+								<tr>
+									<td>C言語プロダクトの<strong>リバースエンジニアリング</strong>． Python を用いた<strong>画像認識 AI</strong> の開発．Django を用いた Web ページ及び API の開発．</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2019/08</td>
+									<td>株式会社M <strong>サマーインターンシップ</strong></td>
+								</tr>
+								<tr>
+									<td>新規 Web サービスの提案及び GitHub を用いたグループ開発 (<a href="https://github.com/hashi0203/SummerIntern">こちら</a>)．(<strong>最優秀賞を受賞</strong>．)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2019/02&nbsp;- 2019/03</td>
+									<td><a href="https://www.bizwings.co/">BizWings (Thailand) Co., Ltd.</a> <strong>タイ</strong>での<strong>長期インターンシップ</strong></td>
+								</tr>
+								<tr>
+									<td>業務効率化システムの導入サポート．</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2017/04&nbsp;- 2019/03</td>
+									<td>特定非営利活動法人 <strong>アイセック</strong>東京大学委員会 <strong>プロジェクトリーダー</strong></td>
+								</tr>
+								<tr>
+									<td>
+										受入事業部として<strong>海外インターンシップ事業を運営</strong>．
+										<ul class="li-small">
+											<li>海外の外国人大学生の日本国内の企業でのインターンシップを全般的に支援</li>
+											<li>国内企業へのインターンシップ<strong>事業の提案</strong>．</li>
+											<li>海外学生に向けたインターンシップ<strong>事業の販促</strong>．</li>
+											<li>入国のための手続き (<strong>VISA 申請等</strong>) の支援．</li>
+											<li>来日した外国人との<strong>密なコミュニケーション</strong> (不安解消やインターンを通じた目標設定と進捗確認)．</li>
+										</ul>
+										<strong>海外アイセック支部</strong>との協働．
+										<ul class="li-small">
+											<li>日本，台湾，スリランカで行われた三度の<strong>国際会議</strong>に参加．</li>
+											<li>マカオ在住の学生の元を訪れてのインターンシップ事前研修の実施．</li>
+										</ul>
+										その他事業への参画
+										<ul class="li-small">
+											<li>富士通ソリューションスクエアにて交流会「<a href="http://www.aiesec.jp/press_ikari/">錨をあげよ</a>」を主催．</li>
+											<li><strong>新歓や対外イベント</strong>の企画運営．</li>
+											<li><strong>プロジェクトメンバーのマネジメント</strong>．</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">2018/03&nbsp;- 2018/05</td>
+									<td>M株式会社 <strong>長期インターンシップ</strong></td>
+								</tr>
+								<tr>
+									<td>ブロックチェーン記事のライター業務</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio">
+						<div class="container">
+							<header>
+								<h2>ポートフォリオ</h2>
+							</header>
+
+							<div class="row">
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/Vitis_HLS_Gaussian" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/fpga-icon.png" alt="FPGA icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>Vitis_HLS_Gaussian</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            Vitis HLS，Vivado，PYNQ を用いた <strong>FPGA 上でのガウシアンフィルタ</strong>の実装．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/image-captioning" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/pytorch-icon.png" alt="Pytorch icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>image-captioning</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            Pytorch を用いた<strong>画像説明文生成のための AI</strong>．参考論文: &ldquo;<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf">Show and Tell: A Neural Image Caption Generator</a>&rdquo; by Vinayls et al. (ICML2015)
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/edge-layout-game" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/edge-icon.png" alt="Edge Layout Game icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>edge-layout-game</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            JavaScript と HTML / CSS を用いた <strong>UI を考慮したゲーム開発</strong>．<a href="https://hashi0203-edge-layout-game.glitch.me/">こちら</a>に公開中．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/iscg-kadai" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/cg-icon.png" alt="Lay Tracing icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>iscg-kadai</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            JavaScript と HTML / CSS を用いたパラメトリック曲線やレイトレーシングや画像処理フィルタなど <strong>CG に関する様々な実装</strong>．<a href="https://hashi0203-iscg-kadai.glitch.me/">こちら</a>に公開中
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/synner" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/synner-icon.png" alt="Synner icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>synner</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            JavaScript と HTML / CSS を用いた<strong>自動データ生成を支援</strong>する Web ページの作成．参考論文: &ldquo;<a href="http://azza.azurewebsites.net/files/Synner-UIST2019.pdf">Is this Real? Generating Synthetic Data that Looks Real</a>&rdquo; by Mannino et al. (UIST 2019)．<a href="https://synner.glitch.me/">こちら</a>に公開中．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/cpuex2019-7th" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/risc-v-icon.png" alt="RISC-V icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>cpuex2019-7th</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            グループでの <strong>FPGA 上で動く RISC-V ベースの CPU</strong> 開発．System Verilog を用いた <strong>FPU</strong> (浮動小数点演算処理装置) の開発．C 言語を用いた FPU のシミュレーションの実装．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="../images/raspberry-pi-icon.png" alt="Raspberry Pi icon" /></span>
+											<div class="wrapper">
+                                                <header>
+                                                    <h3>Raspberry Pi を用いた<br />ライフハック</h3>
+                                                </header>
+											</div>
+										</div>
+                                        <div class="expl">
+                                            赤外線 LED を用いたライト用の<strong>リモコン</strong>．<a href="https://julius.osdn.jp/index.php?q=whatis.html">Julius</a>を用いた<strong>音声処理機構</strong>．自宅用の <strong>NAS</strong> (Network Attached Storage)．Nginx と WordPress を用いた個人用の <strong>Web サイト</strong>．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+                                    <article class="item">
+                                        <a href="https://github.com/hashi0203/tetris" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/tetris-icon.png" alt="Tetris icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>tetris</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            JavaScript と HTML / CSS を用いた<strong>テトリス</strong>開発．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <div class="eye-catch">
+                                            <span class="image fit"><img src="../images/ocaml-icon.png" alt="OCaml icon" /></span>
+                                            <div class="wrapper">
+                                                <header>
+                                                    <h3>OCaml コンパイラ</h3>
+                                                </header>
+                                            </div>
+                                        </div>
+                                        <div class="expl">
+                                            OCaml を用いた <strong>OCaml のコンパイラ</strong>開発．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+										<div class="eye-catch">
+											<span class="image fit"><img src="../images/othello-icon.png" alt="Othello icon" /></span>
+											<div class="wrapper">
+                                                <header>
+                                                    <h3>オセロ</h3>
+                                                </header>
+											</div>
+										</div>
+                                        <div class="expl">
+                                            OCaml を用いた<strong>強い Othello プレーヤー</strong>の開発．
+                                        </div>
+									</article>
+								</div>
+
+								<div class="col-4 col-6-mobile">
+									<article class="item">
+                                        <a href="https://github.com/hashi0203/group_allocation" class="port-img">
+                                            <div class="eye-catch">
+                                                <span class="image fit"><img src="../images/python-icon.png" alt="Python icon" /></span>
+                                                <div class="wrapper">
+                                                    <header>
+                                                        <h3>group_allocation</h3>
+                                                    </header>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="expl">
+                                            Python を用いた<strong>複雑な制約のあるグループ分け問題</strong>を解くシステムの開発
+                                        </div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Achievements -->
+					<section id="achievements">
+						<div class="container">
+							<header>
+								<h2>実績</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td>2021/03</td>
+									<td>成長分野を支える情報技術人材の育成拠点の形成 (enPiT) ビッグデータ&#12539;AI分野 (AiBiC) 修了</td>
+								</tr>
+								<tr>
+									<td>2020/12</td>
+									<td>応用情報技術者試験 合格</td>
+								</tr>
+								<tr>
+									<td>2020/02</td>
+									<td>TOEFL iBT スコア 98点 取得</td>
+								</tr>
+								<tr>
+									<td>2017/10</td>
+									<td>普通自動車第一種運転免許 (AT 限定) 取得</td>
+								</tr>
+								<tr>
+									<td>2017/08</td>
+									<td>TOEIC スコア 910 点 取得</td>
+								</tr>
+								<tr>
+									<td>2016/08</td>
+									<td>第12回全国物理コンテスト「物理チャレンジ2016」 <a href="http://www.jpho.jp/2016/2016-2nd-chall-award-winners.pdf">銀賞受賞</a></td>
+								</tr>
+								<tr>
+									<td>2015/11</td>
+									<td>実用英語技能検定準1級 合格</td>
+								</tr>
+								<tr>
+									<td>2014/06</td>
+									<td>日本漢字能力検定2級 合格</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+
+				<!-- Others -->
+					<section id="others">
+						<div class="container">
+							<header>
+								<h2>その他活動</h2>
+							</header>
+
+							<table>
+								<tr>
+									<td>2021/05&nbsp;- 現在</td>
+									<td><a href="https://www.ito-foundation.or.jp/">伊藤謝恩育英財団</a>の OBOG 組織である<a href="https://sites.google.com/site/miyabikaiweb/">雅会</a>の<strong>会計</strong>を担当</td>
+								</tr>
+								<tr>
+									<td>2021/04&nbsp;- 現在</td>
+									<td>伊藤謝恩育英財団<strong>大学院奨学生</strong></td>
+								</tr>
+								<tr>
+									<td>2017/04&nbsp;- 2021/03</td>
+									<td>伊藤謝恩育英財団<strong>学部奨学生</strong></td>
+								</tr>
+								<tr>
+									<td>2019/04&nbsp;- 2020/03</td>
+									<td>1泊2日の研修会の企画運営を担当する<strong>研修会実行委員</strong></td>
+								</tr>
+								<tr>
+									<td>2019/09</td>
+									<td>
+										エストニア及びフィンランドへの「<a href="https://sapphire-tokyo.jp/wp-content/uploads/2019/06/%C2%940617%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%84%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A9%E3%82%B7.pdf">渡邉創太さんと行くブロックチェーン北欧スタディツアー</a>」に参加
+									</td>
+								</tr>
+								<tr>
+									<td>2019/08</td>
+									<td>
+                                        オーストラリアで開催された「<a href="https://sapphire-tokyo.jp/blog/%e6%97%a5%e8%b1%aa%e5%90%88%e5%90%8c%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%82%b9%e6%95%99%e5%ae%a4%e9%96%8b%e5%82%ac%ef%bc%88%ef%bc%98%e6%9c%881415%e6%97%a5%ef%bc%89/">日豪合同サイエンス実験教室</a>」の<strong>講師</strong>を担当
+									</td>
+								</tr>
+								<tr>
+									<td>2019/05</td>
+									<td>
+                                        「<a href="https://sapphire-tokyo.jp/program/960/">ブロックチェーン社会に関するシンポジウム&交流会</a>」にて<strong>基調講演</strong>を担当 (スライドは<a href="https://sapphire-tokyo.jp/blockchain2019/">こちら</a>)
+									</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<a href="#top" id="page-top" class="scrolly"><i class="fa fa-chevron-up"></i></a>
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2021 <a href="#top" class="scrolly">Nobuho Hashimoto</a> All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Contact information is in the bottom of the sidebar.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
 </html>
