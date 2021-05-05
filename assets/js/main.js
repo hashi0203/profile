@@ -149,3 +149,9 @@ $(document).ready(function() {
     }
 });
 
+$('.port-img').mouseover(function(e) {
+	$(this).find(".wrapper").addClass("port-hover");
+});
+$('.port-img').mouseout(function(e) {
+	$(this).find(".wrapper").removeClass("port-hover");
+});
