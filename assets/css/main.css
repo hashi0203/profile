@@ -124,6 +124,7 @@ input, select, textarea {
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			/* color: #333; */
 			color: #52565e;
+			font-weight: 500;
 		}
 
 	h2 {
@@ -138,7 +139,8 @@ input, select, textarea {
 			h2.alt strong {
 				/* color: #666; */
 				color: #52565e;
-			}
+				font-weight: 500;
+		}
 
 	h3 {
 		font-size: 1.5em;
@@ -157,7 +159,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 400;
 		/* color: #666; */
 		color: #52565e;
 	}
@@ -2142,7 +2144,8 @@ input, select, textarea {
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
+				/* padding: 0.5em 1.5em 0.5em 1.5em; */
+				padding: 0.3em 1.5em 0.5em 1.3em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
 				outline: 0;
@@ -2166,7 +2169,7 @@ input, select, textarea {
 						color: #52565e;
 						text-align: center;
 						width: 1.25em;
-						line-height: 1.75em;
+						line-height: 1.5em;
 					}
 
 				#nav ul li a.active {
@@ -2356,8 +2359,8 @@ input, select, textarea {
 
 			#nav ul li a {
 				font-size: 0.8em;
-				padding-top: 0.5em;
-				padding-bottom: 0.5em;
+				padding-top: 0.3em;
+				padding-bottom: 0.3em;
 			}
 
 				#nav ul li a span {
@@ -2473,7 +2476,7 @@ input, select, textarea {
 			}
 
 			#nav ul li a {
-				padding: 0.5em 1.25em 0.5em 1.25em;
+				padding: 0.3em 1.25em 0.3em 1.25em;
 			}
 
 			#headerToggle {

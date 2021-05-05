@@ -147,6 +147,18 @@ $(document).ready(function() {
 			}
 		} catch (ex) {}
     }
+
+	$('section').each(function(idx, e) {
+		if (idx == 0) {
+			$(e).addClass("one");
+		} else if (idx % 3 == 1) {
+			$(e).addClass("two");
+		} else if (idx % 3 == 2) {
+			$(e).addClass("three");
+		} else if (idx % 3 == 0) {
+			$(e).addClass("four");
+		}
+	});
 });
 
 $('.port-img').mouseover(function(e) {
