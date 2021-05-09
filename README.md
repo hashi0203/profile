@@ -1,4 +1,4 @@
 # Nobuho's Profile
-See https://hashi0203.github.io/profile/.
+See https://n-hassy.info/.
 
-https://hashi0203.github.io/profile/ja/ をご覧ください．
+https://n-hassy.info/ja/ をご覧ください．
