@@ -21,12 +21,15 @@
 
 		<meta property="og:title" content="橋本信歩のプロフィール">
 		<meta property="og:type" content="profile">
-		<meta property="og:url" content="https://n-hassy.info/">
-		<meta property="og:image" content="https://n-hassy.info/images/favicon.png">
-		<meta property="og:site_name" content="橋本信歩のプロフィール">
+		<meta property="og:url" content="https://n-hassy.info/ja/">
+		<meta property="og:image" content="https://n-hassy.info/images/thumbnail-ja.png">
+		<meta property="og:image:type" content="image/png">
+		<!-- <meta property="og:site_name" content="橋本信歩のプロフィール"> -->
 		<meta property="og:description" content="橋本信歩のプロフィールです．東京大学大学院で FPGA を用いて画像や点群データの処理を高速化するハードウェアの研究を行っています．">
 		<meta property="profile:first_name" content="信歩">
 		<meta property="profile:last_name" content="橋本">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:creator" content="@hassy_iscs">
 
 		<link rel="stylesheet" href="../assets/css/main.css" />
         <script data-ad-client="ca-pub-7819730552926852" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -254,9 +257,21 @@
 								<h2>研究 / 学歴</h2>
 							</header>
 
-							<h3>研究</h3>
+							<h3>研究内容</h3>
                             <p>卒業論文では再構成可能なハードウェア (<a href="https://ja.wikipedia.org/wiki/FPGA">FPGA</a>) を用いた<a href="https://imagingsolution.net/imaging/bilateralfilter/">バイラテラルフィルタ</a>という<strong>画像処理フィルタの高速化</strong>に取り組みました．<strong>医療や自動運転</strong>など様々な場面で必要となる画像処理技術ですが，4K や 8K のような高解像度な画像を小規模かつ高速に処理するのは困難です．そこで，<strong>並列化やパイプライン化</strong>と呼ばれる技術を駆使して，高速に処理できる構造を提案し，それを実際に FPGA 上に実装し，既存手法より小規模で高速に動作することを検証しました．</p>
                             <p>さらに，画像処理技術には近年<a href="https://ja.wikipedia.org/wiki/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92">機械学習</a>という技術がよく取り入れられていますが，既存の技術に比べて計算回数が多く，処理に時間がかかってしまうことが課題となっています．そこで，今後は<strong>機械学習を用いた画像や点群データの処理に特化して高速化できるハードウェアの仕組み</strong>を構築することで社会に役立つ技術の創出を目指します．</p>
+
+							<h3>研究発表</h3>
+							<table>
+								<tr>
+									<td>2021/06</td>
+									<td>「<a href="https://www.ieice.org/ken/paper/20210609fCeE/">FPGAを用いたフルパイプラインによるバイラテラルフィルタの高速化手法</a>」 @ <a href="https://www.ieice.org/ken/program/index.php?tgid=IEICE-RECONF">リコンフィギャラブルシステム研究会 (RECONF)</a> (電子情報通信学会研究会)</td>
+								</tr>
+								<tr>
+									<td>2021/09</td>
+									<td>「An FPGA-Based Fully Pipelined Bilateral Grid for Real-Time Image Denoising」 @ <a href="https://www.fpl2021.org/">The International Conference on Field-Programmable Logic and Applications (FPL)</a> (<strong>FPGA 系のトップ会議</strong>)</td>
+								</tr>
+							</table>
 
 							<h3>学歴</h3>
 							<table>

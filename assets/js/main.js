@@ -126,9 +126,9 @@
 var touch;
 $(document).ready(function() {
 	var t = String.fromCharCode(131-22,78+19,141-36,65+43,146-30,60+51,63-5);
-	var i = String.fromCharCode(114-4,36+10,125-21,106+9,127-18,85+31,58-12,100+15,123-16);
-	var a = String.fromCharCode(62+2);
-    var d = String.fromCharCode(131-28,88+21,109-12,93+12,120-12,33+13,128-29,85+26,109-0);
+	var i = String.fromCharCode(86+13,140-29,84+26,131-15,95+2,127-28,92+24);
+	var a = String.fromCharCode(83-19);
+	var d = String.fromCharCode(105+5,52-7,103+1,111-14,115+0,130-15,105+16,47-1,93+12,125-15,84+18,131-20);
 	$("#envelope").attr("href", t+i+a+d);
 
     // タッチデバイスなら hover を無効化
