@@ -169,20 +169,31 @@ input, select, textarea {
 	}
 
 	a {
-		text-decoration: none;
+		/* text-decoration: none; */
 		color: inherit;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		text-decoration-thickness: 1px;
+		text-decoration-color: rgba(82, 86, 94, 0.8);
+		text-underline-offset: 0.1em;
+		text-decoration-skip-ink: none;
+		-moz-transition: color 0.35s ease-in-out, text-decoration-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, text-decoration-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, text-decoration-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, text-decoration-color 0.35s ease-in-out;
 		/* border-bottom: dotted 1px rgba(128, 128, 128, 0.5); */
-		border-bottom: dotted 1px rgba(82, 86, 94, 0.8);
+		/* border-bottom: dotted 1px rgba(82, 86, 94, 0.8);
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out; */
 		outline: 0;
 	}
 
 		a:hover {
 			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
+			/* border-bottom-color: rgba(255, 255, 255, 0); */
+			text-decoration-color: rgba(255, 255, 255, 0);
 		}
 
 	sub {
@@ -2246,10 +2257,14 @@ input, select, textarea {
 				#main > section.dark a {
 					color: #fff;
 					border-color: inherit;
+					text-decoration: underline;
+					text-decoration-style: dashed;
+					text-decoration-thickness: 1px;
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
+						/* border-bottom-color: rgba(255, 255, 255, 0); */
+						text-decoration-color: rgba(255, 255, 255, 0);
 					}
 
 			#main > section.cover {
@@ -2635,7 +2650,7 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
+				/* font-size: 1.5em; */
 				letter-spacing: 0;
 				font-weight: 300;
 			}
@@ -2817,6 +2832,18 @@ ul.langs li.clickable:hover {
 	.expl {
 		/* font-size: 70%; */
 		line-height: 1.5em;
+	}
+}
+
+.slideshare {
+	width: 100%;
+	height: 430px;
+	max-width: 600px;
+}
+
+@media screen and (max-width: 450px) {
+	.slideshare {
+		height: 280px;
 	}
 }
 
