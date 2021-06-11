@@ -2631,6 +2631,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
+				line-height: 1.1em;
 			}
 
 			h2 {
@@ -2749,6 +2750,11 @@ ul.langs li.clickable:hover {
 .lang-lst {
 	list-style: none;
 	line-height: 2em;
+	padding-left: 0;
+}
+
+.lang-lst li {
+	padding-left: 0;
 }
 
 .lang-lst li:nth-child(2n+2) {
