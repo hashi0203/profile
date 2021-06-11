@@ -162,6 +162,18 @@ $(document).ready(function() {
 			$(e).addClass("four");
 		}
 	});
+
+	$('body a[href^=http]').each(function(idx, e) {
+		$(e).attr('target', '_blank');
+		$(e).attr('rel', 'noopener noreferrer');
+	});
+
+	$('article a').children('div').each(function(idx, e) {
+		if ($(e).hasClass('eye-catch')) {
+			$(e).append('<div class="icon-extlink"><i class="fas fa-external-link-alt"></i></div>');
+		}
+	});
+
 });
 
 // ポートフォリオの画像にホバーした時の処理
