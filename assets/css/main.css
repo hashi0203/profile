@@ -2893,7 +2893,7 @@ ul.langs li.clickable:hover {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
     line-height: 1.2rem;
     background: rgba(82, 86, 94, 0.6);
     color: white;
@@ -2901,6 +2901,7 @@ ul.langs li.clickable:hover {
     border: solid 1px;
     border-radius: 50%;
     box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+	text-decoration: none;
 }
 
 #page-top:hover {
