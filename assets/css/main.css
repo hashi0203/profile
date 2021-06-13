@@ -171,10 +171,10 @@ input, select, textarea {
 	a {
 		/* text-decoration: none; */
 		color: inherit;
-		text-decoration: underline dashed rgba(82, 86, 94, 0.8);
-		/* text-decoration-style: dashed; */
+		text-decoration: underline;
+		text-decoration-style: dashed;
 		text-decoration-thickness: 1px;
-		/* text-decoration-color: rgba(82, 86, 94, 0.8); */
+		text-decoration-color: rgba(82, 86, 94, 0.8);
 		text-underline-offset: 0.1em;
 		text-decoration-skip-ink: none;
 		-moz-transition: color 0.35s ease-in-out, text-decoration-color 0.35s ease-in-out;
@@ -2258,8 +2258,11 @@ input, select, textarea {
 					color: #fff;
 					border-color: inherit;
 					text-decoration: underline  dashed #fff;
-					/* text-decoration-style: dashed; */
+					text-decoration-style: dashed;
 					text-decoration-thickness: 1px;
+					text-decoration-color: #fff;
+					text-underline-offset: 0.1em;
+					text-decoration-skip-ink: none;
 				}
 
 					#main > section.dark a:hover {
