@@ -2257,7 +2257,7 @@ input, select, textarea {
 				#main > section.dark a {
 					color: #fff;
 					border-color: inherit;
-					text-decoration: underline  dashed #fff;
+					text-decoration: underline;
 					text-decoration-style: dashed;
 					text-decoration-thickness: 1px;
 					text-decoration-color: #fff;
