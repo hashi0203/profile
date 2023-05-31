@@ -2278,7 +2278,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/under_the_sea.jpg");
+				background-image: url("../../images/machu-picchu.jpg");
 			}
 
 			#main > section.two {
@@ -2768,6 +2768,17 @@ input, select, textarea {
 	position: absolute;
 	top: 2%;
 	right: 2%;
+}
+
+#top header{
+	font-family: 'Caveat', cursive;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.2em;
+}
+
+#top footer{
+	list-style: none;
 }
 
 ul.langs {
